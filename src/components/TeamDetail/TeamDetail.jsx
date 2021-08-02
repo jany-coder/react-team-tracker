@@ -3,8 +3,6 @@ import { useParams } from 'react-router-dom';
 import banner from '../../asset/banner.png';
 import './TeamDetail.css';
 import { Container } from 'react-bootstrap';
-import male from '../../asset/male.png';
-import female from '../../asset/female.png';
 
 const TeamDetail = () => {
 

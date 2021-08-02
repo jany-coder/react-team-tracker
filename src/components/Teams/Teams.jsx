@@ -16,8 +16,8 @@ const Teams = () => {
         <Row className="mt-5">
             {
                 teams.map((team) =>
-                    <Col md={4} sm={12}>
-                        <Team key={team.idTeam} team={team}></Team>
+                    <Col md={4} sm={12} key={team.idTeam}>
+                        <Team team={team}></Team>
                     </Col>)
             }
         </Row>
