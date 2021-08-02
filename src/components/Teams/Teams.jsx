@@ -15,9 +15,9 @@ const Teams = () => {
     return (
         <Row className="mt-5">
             {
-                teams.map(team =>
+                teams.map((team) =>
                     <Col md={4} sm={12}>
-                        <Team team={team}></Team>
+                        <Team key={team.idTeam} team={team}></Team>
                     </Col>)
             }
         </Row>
