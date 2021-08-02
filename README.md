@@ -21,4 +21,7 @@ Team Tracker
 ## Tech Stack
 
 - React, bootstrap, fontawesome
-  
+
+## Live site 
+
+Live site: https://6107be928de07fd55ddda604--eager-benz-f01bf1.netlify.app/  
