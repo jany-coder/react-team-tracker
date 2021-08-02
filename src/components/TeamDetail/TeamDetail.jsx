@@ -20,7 +20,7 @@ const TeamDetail = () => {
             .then(res => res.json())
             .then(data => setTeamDetail(data.teams[0]))
             .catch(err => console.log(err))
-    }, [])
+    }, [idTeam])
     return (
 
         <>
