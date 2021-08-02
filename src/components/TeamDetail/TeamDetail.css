@@ -1,0 +1,9 @@
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3A42FF;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+
+}
